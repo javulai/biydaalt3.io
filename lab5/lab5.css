@@ -1,0 +1,176 @@
+.dasgal1{ 
+    text-shadow: 2px 5px 5px deepskyblue;
+}
+div{
+    margin-right: 30px;
+}
+.dasgal2{
+    text-align:center;
+    margin-bottom: 50px;
+}
+.dasgal2_1{
+    box-shadow: 15px 15px 20px dimgrey;
+    background: rosybrown;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    border: 3px black;
+    display: inline-block;
+
+}
+.dasgal2_2{
+    width: 200px;
+    height: 200px;
+    border: 3px black;
+    background-color: royalblue;
+    border-radius: 50px;
+    box-shadow: -15px -15px 30px dimgrey;
+    display: inline-block;
+}
+.dasgal2_3{
+    width: 200px;
+    height: 200px;
+    border: 3px black;
+    background-color: saddlebrown;
+    border-radius: 100px;
+    box-shadow: 15px 15px 10px dimgrey;
+    display: inline-block;
+}
+
+h3{
+    margin-top: 75px;
+}
+.dasgal4{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(45deg, red , orange , yellow, green, blue, indigo, violet);
+    text-align: center;
+    float: left;
+
+}
+.dasgal5{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(farthest-side at 10% 90% ,rgb(125, 55, 206), rgb(206, 101, 197), rgb(71, 212, 165));
+}
+.dasgal6{
+    width: 200px;
+    height: 200px;
+    background: lightcoral;
+    border-radius: 30%;
+    position: relative;
+    float: left;
+    animation-name: dasgal6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes dasgal6 {
+    0% {left: 0px; top: 0px;}
+    25% {left: 200px; top: 0px;}
+    50% {left: 200px; top: 200px;}
+    75% {left: 0px; top: 200px;}
+    
+    100% {left: 0px; top: 0px;}
+}
+.dasgal7{
+    display: inline-block;
+    margin-left: 75px;
+    background: lightgreen;
+    height: 100px;
+    width: 200px;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 250%;
+    border: 3px solid darkgreen;
+    border-radius: 15px;
+    margin: 50px;
+    margin-left: 200px;
+    animation-name: skew;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes skew{
+    from {transform: skewY(0deg);}
+    10% {transform: skewY(30deg);}
+    20% {transform: skewY(0deg);}
+    30% {transform: skewY(-30deg);}
+    40% {transform: skewY(0deg);}
+    52% { transform: skewX(0deg);}
+    64% { transform: skewX(30deg);}
+    78% { transform: skewX(0deg);}
+    80% { transform: skewX(-30deg);}
+    to {transform: skewX(0);}
+}
+.dasgal8{
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+}
+.dasgal8 div img{
+    position: absolute;
+    transition: opacity 2s ease-in-out;
+}
+.dasgal8 img.top:hover{ opacity:100; }
+.dasgal10{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-flow: row wrap ;
+    background: yellow;
+    width: 500px;
+    height: 350px;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+
+}
+#d1{
+    width: 100px;
+    height: 80px;
+    background: blue;
+
+}
+#d2{
+    width: 100px;
+    height: 120px;
+    background: red; 
+}
+#d3{
+    width: 100px;
+    height: 90px;
+    background: rgb(125, 55, 206);
+}
+#d4{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+#d5{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+#d6{
+    width: 100px;
+    height: 100px;
+    background: rgb(125, 55, 206);
+}
+.dasgal11 .d12{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-flow: row wrap ;
+    transition: width 2s ease-in-out;
+}
+img.d12:hover{
+    width: 120%;
+}
+.dasgal9{
+    width: 600px;
+    column-count: 2; 
+    column-rule-style: solid;
+    column-rule-width: 5px;
+    column-rule-color: blue;
+}
